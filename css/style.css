@@ -3,11 +3,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /* Generics */
+
+.w-30 {
+    background-color: #daa520;
+    flex-basis: 30%;
+    min-height: 50%;
+    border: 2px dashed black;   
+}
+
+.w-70 {
+    background-color: #daa520;
+    flex-basis: 70%;
+    min-height: 50%;
+    border: 2px dashed black;
+}
 
 /* Utils */
 
 /* Header  */
 
+header {
+    background-color: #add8e6;
+    height: 100px;
+    display: flex;
+}
+
+.flex-container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
