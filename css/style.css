@@ -19,15 +19,11 @@
 }
 
 .w-70 {
-    width: 70%;
- 
-    
+    width: 70%;   
 }
 
 #login {
-    justify-content: flex-end;
-    
-    
+    justify-content: flex-end;   
 }
 
 .box {
@@ -135,6 +131,7 @@ header {
 .black-container {
     height: 600px;
     background-color: #23272a;
+    border-bottom: 2px solid white;
 }
 
 .lightcoral {
@@ -152,5 +149,36 @@ header {
 
 .small-water {
     width: calc(100% / 4);
-    border: 2px dashed white;
+    border: 2px dashed #eeeeee;
+}
+
+/* Footer  */
+
+footer {
+    height: 125px;
+    background-color: #23272a;
+}
+
+.footer-flex-container {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+ }
+
+.footer-wrapper {
+    height: 75%;
+    width: 100%;
+    background-color: #7fffd4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-label {
+    background-color: #ffb6c1;
+    height: 50px;
+    padding: 10px;
 }
