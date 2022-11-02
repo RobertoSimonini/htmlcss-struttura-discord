@@ -19,21 +19,37 @@
 }
 
 .w-70 {
-    background-color: #daa520;
-    flex-basis: 70%;
-    min-height: 50%;
-    border: 2px dashed black;
-    display: flex;   
-    align-items: center;
-    justify-content: center;
+    width: 70%;
+ 
+    
 }
 
 #login {
     justify-content: flex-end;
+    
+    
 }
 
 .box {
     border: 2px dashed black;
+}
+
+#link {
+    background-color: #daa520;
+    border: 2px dashed black; 
+    min-height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Utils */
@@ -55,12 +71,12 @@ header {
 
 /* Main sections  */
 
-section {
+.blue-container {
     height: 500px;
     background-color: #00008b;
 }
 
-.flex-container {
+.flex-blue-container {
     width: 60%;
     height: 100%;
     margin: 0 auto;
@@ -72,5 +88,25 @@ section {
 .pink {
     background-color: #ee82ee;
     width: 80%;
+    height: 80%;
+}
+
+.white-container {
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.azurine {
+    background-color: #1e90ff;
+    width: 65%;
+    height: 80%;
+}
+
+.rosaceous {
+    background-color: #ffc0cb;
+    width: 35%;
     height: 80%;
 }
