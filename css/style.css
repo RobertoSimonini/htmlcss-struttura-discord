@@ -32,6 +32,10 @@
     justify-content: flex-end;
 }
 
+.box {
+    border: 2px dashed black;
+}
+
 /* Utils */
 
 /* Header  */
@@ -42,9 +46,31 @@ header {
     display: flex;
 }
 
-.flex-container {
+.header-flex-container {
     width: 70%;
     margin: 0 auto;
     display: flex;
     align-items: center;
+}
+
+/* Main sections  */
+
+section {
+    height: 500px;
+    background-color: #00008b;
+}
+
+.flex-container {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pink {
+    background-color: #ee82ee;
+    width: 80%;
+    height: 80%;
 }
