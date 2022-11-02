@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    font-size: 20px;
 }
 
 /* Generics */
@@ -12,7 +13,9 @@
     background-color: #daa520;
     flex-basis: 30%;
     min-height: 50%;
-    border: 2px dashed black;   
+    border: 2px dashed black;
+    display: flex;   
+    align-items: center;
 }
 
 .w-70 {
@@ -20,6 +23,13 @@
     flex-basis: 70%;
     min-height: 50%;
     border: 2px dashed black;
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+}
+
+#login {
+    justify-content: flex-end;
 }
 
 /* Utils */
