@@ -10,34 +10,14 @@
 /* Generics */
 
 .w-30 {
-    background-color: #daa520;
-    flex-basis: 30%;
-    min-height: 50%;
-    border: 2px dashed black;
-    display: flex;   
-    align-items: center;
+    width: 30%;
+    
 }
-
-.w-70 {
-    width: 70%;   
-}
-
-#login {
-    justify-content: flex-end;   
-}
-
 .box {
     border: 2px dashed black;
 }
 
-#link {
-    background-color: #daa520;
-    border: 2px dashed black; 
-    min-height: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .flex-container {
     width: 70%;
@@ -52,7 +32,17 @@
     margin: 0 auto;
 }
 
+.footer-label {
+    background-color: #ffb6c1;
+    height: 50px;
+    padding: 10px;
+}
+
 /* Utils */
+
+.w-70 {
+    width: 70%;   
+}
 
 /* Header  */
 
@@ -68,6 +58,30 @@ header {
     display: flex;
     align-items: center;
 }
+
+#logo, #login {
+    background-color: #daa520;
+    min-height: 50%;
+    border: 2px dashed black;
+    display: flex;   
+    align-items: center;
+    
+}
+
+#login {
+    justify-content: flex-end;   
+}
+
+#link {
+    background-color: #daa520;
+    border: 2px dashed black; 
+    min-height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 /* Main sections  */
 
@@ -177,8 +191,3 @@ footer {
     justify-content: space-between;
 }
 
-.footer-label {
-    background-color: #ffb6c1;
-    height: 50px;
-    padding: 10px;
-}
